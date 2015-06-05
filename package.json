@@ -1,0 +1,40 @@
+{
+  "name": "seneca-nsq-transport",
+  "version": "1.0.0",
+  "description": "Seneca Nsq.io transport",
+  "main": "nsq-transport.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dublx/seneca-nsq-transport.git"
+  },
+  "keywords": [
+    "seneca",
+    "transport",
+    "plugin",
+    "nsq",
+    "nsq.io",
+    "pubsub",
+    "pub-sub",
+    "publish",
+    "subscribe"
+  ],
+  "author": "Luis Faustino (http://github.com/dublx)",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "nsqjs": "^0.7.6"
+  },
+  "devDependencies": {
+    "mocha": "~2.1.0",
+    "seneca": "plugin",
+    "seneca-transport-test": "~0.1.2"
+  },
+  "files": [
+    "README.md",
+    "LICENSE",
+    "nsq-transport.js"
+  ]
+}
